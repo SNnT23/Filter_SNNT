@@ -29,7 +29,7 @@ class Config:
     ADS = (environ.get("NOR_IMG", "https://telegra.ph/file/019c6642112620d0d59cb.jpg https://telegra.ph/file/f3c03737e838da72d5295.jpg")).split()
     NOR_IMG = ADS 
     MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/9e8955496d249439791f8.mp4")
-    SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/26b49f7376b1ae3d0223d.jpg")
+    SPELL_IMG = environ.get("SPELL_IMG", "https://www.slashfilm.com/img/gallery/one-piece-film-red-showcases-luffys-new-transformation-for-the-first-time/l-intro-1667316814.jpg")
 
 
     ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1777161435').split()]
